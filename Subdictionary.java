@@ -5,10 +5,7 @@ import java.io.FileOutputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-/**
- * Name and ID: Kevin Duong 40209877 & Paul Touma 40210678 COMP249 Assignment 4
- * Due Date: April 15th 2022
- */
+
 public class Part1 {
 
 	public static void main(String[] args) {
@@ -43,8 +40,8 @@ public class Part1 {
 					}
 				}
 				// checks if word contains "'" and splits it
-				if (s.contains("’")) {
-					s = s.substring(0, s.indexOf("’"));
+				if (s.contains("â€™")) {
+					s = s.substring(0, s.indexOf("â€™"));
 				}
 
 				// checks if word contains "." "," "?" "!" ":" ";"
